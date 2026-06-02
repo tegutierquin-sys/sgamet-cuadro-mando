@@ -6,7 +6,7 @@ CONTRASENA = "SGAMET2026"
 ENLACE_POWERBI = "https://app.powerbi.com/links/8l16NEHg_E?ctid=24e38255-2c42-4538-999c-5fd53e8456d2&pbi_source=linkShare"
 
 st.set_page_config(
-    page_title="Portal SGAMET | Transformación Digital",
+    page_title="Portal SGAMET | Cuadro de Mando | Transformación Digital",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="collapsed",

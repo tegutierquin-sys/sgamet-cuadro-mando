@@ -1,0 +1,1 @@
+# sgamet-cuadro-mando

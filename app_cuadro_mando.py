@@ -5,6 +5,8 @@ LOGOS_EU_B64 = "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgG
 CONTRASENA = "SGAMET2026"
 ENLACE_POWERBI = "https://app.powerbi.com/links/tFuKXGz5U-?ctid=24e38255-2c42-4538-999c-5fd53e8456d2&pbi_source=linkShare"
 ENLACE_INSTRUCCIONES = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQAnLtaI171dRKzVWA7zTYqoAfnjOe_yoZSa3u5_JTV0aYc?e=isaEbK"
+ENLACE_PRESENTACION = "https://colaboraage.sharepoint.com/:p:/s/SGAMET-Teams/IQAr_1VIwAWzRKzbIrkrfcb1AcZf8nYIqTQ04QAdBCGfTOc?e=L8X1XQ"  # Sustituir por el enlace a la presentación de la simulación
+ENLACE_GUIA = "#"  # Sustituir por el enlace a la guía
 
 st.set_page_config(
     page_title="Portal SGAMET | Cuadro de Mando | Transformación Digital",
@@ -94,6 +96,37 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
 .docs-mini-desc { font-size: 11.5px; color: #777; margin: 2px 0 0 0; line-height: 1.35; }
 .docs-mini-link { white-space: nowrap; color: #005aa0 !important; font-size: 12px; font-weight: 700; text-decoration: none; }
 .docs-mini-link:hover { color: #003366 !important; text-decoration: underline; }
+.docs-extra-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 12px;
+}
+.docs-extra-card {
+    background: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #e8e4df;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    aspect-ratio: 1 / 1;
+    min-height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.docs-extra-card:hover {
+    transform: translateY(-3px);
+    border-color: #005aa0;
+    box-shadow: 0 12px 32px rgba(0,90,160,0.10);
+    text-decoration: none;
+}
+.docs-extra-icon { font-size: 24px; display: block; margin-bottom: 8px; }
+.docs-extra-title { font-family: 'Syne', sans-serif; font-size: 13px; font-weight: 700; color: #0d1b2a; margin: 0; }
+@media (max-width: 600px) {
+    .docs-extra-grid { grid-template-columns: 1fr; }
+}
 .seccion-titulo { font-family: 'Syne', sans-serif; font-size: 16px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #444; margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid #ddd; }
 
 /* TARJETAS MONOGRÁFICOS */
@@ -425,6 +458,23 @@ def mostrar_inicio():
                     </div>
                 </div>
                 <a href="{ENLACE_INSTRUCCIONES}" target="_blank" class="docs-mini-link">Abrir carpeta ↗</a>
+            </div>
+            """, unsafe_allow_html=True)
+
+            st.markdown(f"""
+            <div class="docs-extra-grid">
+                <a href="{ENLACE_PRESENTACION}" target="_blank" class="docs-extra-card">
+                    <div>
+                        <span class="docs-extra-icon">📽️</span>
+                        <p class="docs-extra-title">Presentación</p>
+                    </div>
+                </a>
+                <a href="{ENLACE_GUIA}" target="_blank" class="docs-extra-card">
+                    <div>
+                        <span class="docs-extra-icon">📘</span>
+                        <p class="docs-extra-title">Guía</p>
+                    </div>
+                </a>
             </div>
             """, unsafe_allow_html=True)
 

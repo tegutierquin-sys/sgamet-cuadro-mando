@@ -98,17 +98,18 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
 .docs-mini-link:hover { color: #003366 !important; text-decoration: underline; }
 .docs-extra-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-top: 12px;
+    grid-template-columns: 82px 82px;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
 }
 .docs-extra-card {
     background: #ffffff;
-    border-radius: 14px;
+    border-radius: 12px;
     border: 1px solid #e8e4df;
     box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-    aspect-ratio: 1 / 1;
-    min-height: 112px;
+    width: 82px;
+    height: 82px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,10 +123,10 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
     box-shadow: 0 12px 32px rgba(0,90,160,0.10);
     text-decoration: none;
 }
-.docs-extra-icon { font-size: 24px; display: block; margin-bottom: 8px; }
-.docs-extra-title { font-family: 'Syne', sans-serif; font-size: 13px; font-weight: 700; color: #0d1b2a; margin: 0; }
+.docs-extra-icon { font-size: 19px; display: block; margin-bottom: 5px; }
+.docs-extra-title { font-family: 'Syne', sans-serif; font-size: 11px; font-weight: 700; color: #0d1b2a; margin: 0; }
 @media (max-width: 600px) {
-    .docs-extra-grid { grid-template-columns: 1fr; }
+    .docs-extra-grid { grid-template-columns: 82px 82px; }
 }
 .seccion-titulo { font-family: 'Syne', sans-serif; font-size: 16px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #444; margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid #ddd; }
 

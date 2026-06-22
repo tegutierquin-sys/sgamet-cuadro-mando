@@ -7,6 +7,7 @@ ENLACE_POWERBI = "https://app.powerbi.com/links/tFuKXGz5U-?ctid=24e38255-2c42-45
 ENLACE_INSTRUCCIONES = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQAnLtaI171dRKzVWA7zTYqoAfnjOe_yoZSa3u5_JTV0aYc?e=isaEbK"
 ENLACE_PRESENTACION = "https://colaboraage.sharepoint.com/:p:/s/SGAMET-Teams/IQAr_1VIwAWzRKzbIrkrfcb1AcZf8nYIqTQ04QAdBCGfTOc?e=L8X1XQ"  # Sustituir por el enlace a la presentación de la simulación
 ENLACE_GUIA = "#"  # Sustituir por el enlace a la guía
+ENLACE_BUZON = "https://forms.office.com/Pages/ResponsePage.aspx?id=VYLjJEIsOEWZnF_VPoRW0tRBAPU6aa9FqmyANaQBjDJUMlMxUk8xWUw5QVBPUU0xTVRZNTNLREpWViQlQCN0PWcu"  # Sustituir por el enlace al buzón de incidencias y sugerencias
 
 st.set_page_config(
     page_title="Portal SGAMET | Cuadro de Mando | Transformación Digital",
@@ -98,7 +99,7 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
 .docs-mini-link:hover { color: #003366 !important; text-decoration: underline; }
 .docs-extra-grid {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 200px 200px 200px;
     gap: 12px;
     margin-top: 10px;
     margin-left: 5px;
@@ -146,7 +147,7 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
     overflow-wrap: normal;
 }
 @media (max-width: 600px) {
-    .docs-extra-grid { grid-template-columns: 124px 124px; }
+    .docs-extra-grid { grid-template-columns: 200px; }
 }
 .seccion-titulo { font-family: 'Syne', sans-serif; font-size: 16px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #444; margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid #ddd; }
 
@@ -494,6 +495,12 @@ def mostrar_inicio():
                     <div>
                         <span class="docs-extra-icon">📘</span>
                         <p class="docs-extra-title">Guía</p>
+                    </div>
+                </a>
+                <a href="{ENLACE_BUZON}" target="_blank" class="docs-extra-card">
+                    <div>
+                        <span class="docs-extra-icon">📬</span>
+                        <p class="docs-extra-title">Buzón</p>
                     </div>
                 </a>
             </div>

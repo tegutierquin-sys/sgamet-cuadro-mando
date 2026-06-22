@@ -5,7 +5,7 @@ LOGOS_EU_B64 = "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgG
 CONTRASENA = "SGAMET2026"
 ENLACE_POWERBI = "https://app.powerbi.com/links/tFuKXGz5U-?ctid=24e38255-2c42-4538-999c-5fd53e8456d2&pbi_source=linkShare"
 ENLACE_INSTRUCCIONES = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQAnLtaI171dRKzVWA7zTYqoAfnjOe_yoZSa3u5_JTV0aYc?e=isaEbK"
-ENLACE_PRESENTACION = "#"  # Sustituir por el enlace a la presentación de la simulación
+ENLACE_PRESENTACION = "https://colaboraage.sharepoint.com/:p:/s/SGAMET-Teams/IQAr_1VIwAWzRKzbIrkrfcb1AcZf8nYIqTQ04QAdBCGfTOc?e=L8X1XQ"  # Sustituir por el enlace a la presentación de la simulación
 ENLACE_GUIA = "#"  # Sustituir por el enlace a la guía
 
 st.set_page_config(
@@ -486,7 +486,7 @@ def mostrar_inicio():
             <div class="docs-extra-grid">
                 <a href="{ENLACE_PRESENTACION}" target="_blank" class="docs-extra-card">
                     <div>
-                        <span class="docs-extra-icon">📽️</span>
+                        <span class="docs-extra-icon">🖥️</span>
                         <p class="docs-extra-title">Presentación</p>
                     </div>
                 </a>

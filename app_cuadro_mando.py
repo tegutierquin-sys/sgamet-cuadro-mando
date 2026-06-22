@@ -98,17 +98,18 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
 .docs-mini-link:hover { color: #003366 !important; text-decoration: underline; }
 .docs-extra-grid {
     display: grid;
-    grid-template-columns: 150px 50px;
+    grid-template-columns: 200px 200px;
     gap: 12px;
     margin-top: 10px;
-    justify-content: center;
+    margin-left: 20px;
+    justify-content: start;
 }
 .docs-extra-card {
     background: #ffffff;
     border-radius: 12px;
     border: 1px solid #e8e4df;
     box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-    width: 150px;
+    width: 200px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -135,7 +136,7 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
 .docs-extra-icon { font-size: 18px; display: block; margin-bottom: 0; }
 .docs-extra-title {
     font-family: 'Syne', sans-serif;
-    font-size: 9px;
+    font-size: x;
     font-weight: 700;
     color: #0d1b2a;
     margin: 0;

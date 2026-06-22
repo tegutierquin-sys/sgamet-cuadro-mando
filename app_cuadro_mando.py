@@ -136,7 +136,7 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
 .docs-extra-icon { font-size: 16px; display: block; margin-bottom: 0; }
 .docs-extra-title {
     font-family: 'Syne', sans-serif;
-    font-size: 10px !important;
+    font-size: 12px !important;
     font-weight: 700;
     color: #0d1b2a;
     margin: 0;

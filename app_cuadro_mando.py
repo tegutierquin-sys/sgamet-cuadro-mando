@@ -110,7 +110,7 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
     border: 1px solid #e8e4df;
     box-shadow: 0 8px 24px rgba(0,0,0,0.06);
     width: 200px;
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;

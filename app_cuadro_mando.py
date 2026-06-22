@@ -5,7 +5,7 @@ LOGOS_EU_B64 = "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgG
 CONTRASENA = "SGAMET2026"
 ENLACE_POWERBI = "https://app.powerbi.com/links/tFuKXGz5U-?ctid=24e38255-2c42-4538-999c-5fd53e8456d2&pbi_source=linkShare"
 ENLACE_INSTRUCCIONES = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQAnLtaI171dRKzVWA7zTYqoAfnjOe_yoZSa3u5_JTV0aYc?e=isaEbK"
-ENLACE_PRESENTACION = "https://colaboraage.sharepoint.com/:p:/s/SGAMET-Teams/IQAr_1VIwAWzRKzbIrkrfcb1AcZf8nYIqTQ04QAdBCGfTOc?e=L8X1XQ"  # Sustituir por el enlace a la presentación de la simulación
+ENLACE_PRESENTACION = "#"  # Sustituir por el enlace a la presentación de la simulación
 ENLACE_GUIA = "#"  # Sustituir por el enlace a la guía
 
 st.set_page_config(
@@ -98,8 +98,8 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
 .docs-mini-link:hover { color: #003366 !important; text-decoration: underline; }
 .docs-extra-grid {
     display: grid;
-    grid-template-columns: 82px 82px;
-    gap: 10px;
+    grid-template-columns: 124px 124px;
+    gap: 12px;
     margin-top: 10px;
     justify-content: center;
 }
@@ -108,14 +108,15 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
     border-radius: 12px;
     border: 1px solid #e8e4df;
     box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-    width: 82px;
-    height: 82px;
+    width: 124px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     text-decoration: none;
     transition: all 0.2s ease;
+    padding: 8px 10px;
 }
 .docs-extra-card:hover {
     transform: translateY(-3px);
@@ -123,10 +124,28 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
     box-shadow: 0 12px 32px rgba(0,90,160,0.10);
     text-decoration: none;
 }
-.docs-extra-icon { font-size: 19px; display: block; margin-bottom: 5px; }
-.docs-extra-title { font-family: 'Syne', sans-serif; font-size: 11px; font-weight: 700; color: #0d1b2a; margin: 0; }
+.docs-extra-card > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+}
+.docs-extra-icon { font-size: 18px; display: block; margin-bottom: 0; }
+.docs-extra-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #0d1b2a;
+    margin: 0;
+    line-height: 1.15;
+    text-decoration: none !important;
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
 @media (max-width: 600px) {
-    .docs-extra-grid { grid-template-columns: 82px 82px; }
+    .docs-extra-grid { grid-template-columns: 124px 124px; }
 }
 .seccion-titulo { font-family: 'Syne', sans-serif; font-size: 16px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #444; margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid #ddd; }
 

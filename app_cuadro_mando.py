@@ -101,7 +101,7 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
     grid-template-columns: 200px 200px;
     gap: 12px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
     justify-content: start;
 }
 .docs-extra-card {
@@ -136,7 +136,7 @@ section.main > div { padding-left: 0 !important; padding-right: 0 !important; pa
 .docs-extra-icon { font-size: 16px; display: block; margin-bottom: 0; }
 .docs-extra-title {
     font-family: 'Syne', sans-serif;
-    font-size: 9px;
+    font-size: 7px;
     font-weight: 700;
     color: #0d1b2a;
     margin: 0;

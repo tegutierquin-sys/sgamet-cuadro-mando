@@ -7,7 +7,7 @@ ENLACE_POWERBI = "https://app.powerbi.com/links/tFuKXGz5U-?ctid=24e38255-2c42-45
 ENLACE_INSTRUCCIONES = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQAnLtaI171dRKzVWA7zTYqoAXOkhYA0LfU1hl9uoiy1dKM?e=wCHvOT"
 ENLACE_PRESENTACION = "https://colaboraage.sharepoint.com/:p:/s/SGAMET-Teams/IQAr_1VIwAWzRKzbIrkrfcb1AcZf8nYIqTQ04QAdBCGfTOc?e=L8X1XQ"  # Sustituir por el enlace a la presentación de la simulación
 ENLACE_GUIA = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQDAK8QEzXr6Soi3l-VnKUD0AVCmRt-f971OUqeGAFiY430?e=9X8rxe"  # Sustituir por el enlace a la guía
-ENLACE_BUZON = "https://forms.office.com/Pages/ResponsePage.aspx?id=VYLjJEIsOEWZnF_VPoRW0tRBAPU6aa9FqmyANaQBjDJUMlMxUk8xWUw5QVBPUU0xTVRZNTNLREpWViQlQCN0PWcu"  # Sustituir por el enlace al buzón de incidencias y sugerencias
+ENLACE_BUZON = "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VYLjJEIsOEWZnF_VPoRW0tRBAPU6aa9FqmyANaQBjDJURVEwMzUxNlVLVlRNUVZKS0wxWEFUNFRYUCQlQCN0PWcu"  # Sustituir por el enlace al buzón de incidencias y sugerencias
 
 st.set_page_config(
     page_title="Portal SGAMET | Cuadro de Mando | Transformación Digital",

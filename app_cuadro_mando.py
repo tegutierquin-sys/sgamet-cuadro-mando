@@ -6,7 +6,7 @@ CONTRASENA = "SGAMET2026"
 ENLACE_POWERBI = "https://app.powerbi.com/links/tFuKXGz5U-?ctid=24e38255-2c42-4538-999c-5fd53e8456d2&pbi_source=linkShare"
 ENLACE_INSTRUCCIONES = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQAnLtaI171dRKzVWA7zTYqoAXOkhYA0LfU1hl9uoiy1dKM?e=wCHvOT"
 ENLACE_PRESENTACION = "https://colaboraage.sharepoint.com/:p:/s/SGAMET-Teams/IQAr_1VIwAWzRKzbIrkrfcb1AcZf8nYIqTQ04QAdBCGfTOc?e=L8X1XQ"  # Sustituir por el enlace a la presentación de la simulación
-ENLACE_GUIA = "#"  # Sustituir por el enlace a la guía
+ENLACE_GUIA = "https://colaboraage.sharepoint.com/:b:/r/sites/SGAMET-Teams/Documentos%20compartidos/SGAMET/Dashboard/Documentaci%C3%B3n/seteleco_presentacion_Cuadro%20de%20mandos.pdf?csf=1&web=1&e=74Lq5j"  # Sustituir por el enlace a la guía
 ENLACE_BUZON = "https://forms.office.com/Pages/ResponsePage.aspx?id=VYLjJEIsOEWZnF_VPoRW0tRBAPU6aa9FqmyANaQBjDJUMlMxUk8xWUw5QVBPUU0xTVRZNTNLREpWViQlQCN0PWcu"  # Sustituir por el enlace al buzón de incidencias y sugerencias
 
 st.set_page_config(

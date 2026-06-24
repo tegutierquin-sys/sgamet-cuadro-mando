@@ -5,8 +5,8 @@ LOGOS_EU_B64 = "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgG
 CONTRASENA = "SGAMET2026"
 ENLACE_POWERBI = "https://app.powerbi.com/links/tFuKXGz5U-?ctid=24e38255-2c42-4538-999c-5fd53e8456d2&pbi_source=linkShare"
 ENLACE_INSTRUCCIONES = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQAnLtaI171dRKzVWA7zTYqoAXOkhYA0LfU1hl9uoiy1dKM?e=wCHvOT"
-ENLACE_PRESENTACION = "https://colaboraage.sharepoint.com/:p:/s/SGAMET-Teams/IQAr_1VIwAWzRKzbIrkrfcb1AcZf8nYIqTQ04QAdBCGfTOc?e=L8X1XQ"  # Sustituir por el enlace a la presentación de la simulación
-ENLACE_GUIA = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQDAK8QEzXr6Soi3l-VnKUD0AVCmRt-f971OUqeGAFiY430?e=9X8rxe"  # Sustituir por el enlace a la guía
+ENLACE_PRESENTACION = "https://colaboraage.sharepoint.com/:p:/s/SGAMET-Teams/IQAr_1VIwAWzRKzbIrkrfcb1AagRQJMaamWo_s0cjeLvWFM?e=c5x5g3"  # Sustituir por el enlace a la presentación de la simulación
+ENLACE_GUIA = "https://colaboraage.sharepoint.com/:b:/s/SGAMET-Teams/IQDAK8QEzXr6Soi3l-VnKUD0AVCmRt-f971OUqeGAFiY430?e=X8gOfV"  # Sustituir por el enlace a la guía
 ENLACE_BUZON = "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VYLjJEIsOEWZnF_VPoRW0tRBAPU6aa9FqmyANaQBjDJURVEwMzUxNlVLVlRNUVZKS0wxWEFUNFRYUCQlQCN0PWcu"  # Sustituir por el enlace al buzón de incidencias y sugerencias
 
 st.set_page_config(
